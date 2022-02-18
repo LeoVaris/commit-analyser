@@ -10,9 +10,9 @@ Clone the project
 npm install
 ```
 
-Get your [GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). You should add at least the right `public_repo`, for the project to work. 
+Get your [GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). You should add at least the right `public_repo` for the project to work. 
 
-Create a `.env` using the template and paste your token there. 
+Create a `.env` file using the template and paste your token there. 
 
 ```
 npm start

@@ -19,3 +19,7 @@ npm start
 ```
 
 Then navigate to `localhost:3000` to view the app. 
+
+## Things to note
+
+The rate limit of the GitHub api is 5000 requests per hour. This project does one request for each commit, so it is not wise to use this with massive projects that may have more than 5000 commits. The functionality should be efficient enough to support anything below that. 
